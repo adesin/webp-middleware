@@ -1,0 +1,32 @@
+{
+  "name": "@itpeople/webp-middleware",
+  "version": "1.0.0",
+  "description": "Middleware генерирует на лету и отдаёт файлы в формате webp из jpg и png, сохраняя структуру директорий. Файл сохраняется в формате image.jpg.webp. Имеется поддержка опций cwebp. Поддерживает Express, работает с сервером HTTP/2",
+  "main": "index.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adesin/webp-middleware.git"
+  },
+  "keywords": [
+    "webp",
+    "cwebp",
+    "middleware",
+    "express",
+    "es6"
+  ],
+  "author": "Anton Desin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adesin/webp-middleware/issues"
+  },
+  "homepage": "https://github.com/adesin/webp-middleware#readme",
+  "dependencies": {
+    "cwebp-bin": "^5.0.0"
+  }
+}
