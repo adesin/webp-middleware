@@ -8,6 +8,6 @@
 
 import WebpMiddleware from "./lib/WebpMiddleware";
 
-export default (options) => {
-  return new WebpMiddleware().create(options);
+export default (publicPath, options) => {
+  return new WebpMiddleware().create(publicPath, options);
 };
