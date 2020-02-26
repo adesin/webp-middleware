@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "cwebp-bin": "^5.0.0"
+    "cwebp-bin": "^5.1.0"
   },
   "devDependencies": {},
   "scripts": {
