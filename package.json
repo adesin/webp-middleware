@@ -1,6 +1,6 @@
 {
   "name": "@itpeople/webp-middleware",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Middleware генерирует на лету и отдаёт файлы в формате webp из jpg и png, сохраняя структуру директорий. Файл сохраняется в формате image.jpg.webp. Имеется поддержка опций cwebp. Поддерживает Express, работает с сервером HTTP/2",
   "main": "index.mjs",
   "directories": {
